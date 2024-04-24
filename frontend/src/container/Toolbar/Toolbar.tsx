@@ -20,7 +20,6 @@ export default function Toolbar({
 		<div className="toolbar">
 			<div className="leftActions">{leftActions}</div>
 			<div className="timeRange">
-				{showOldCTA && <NewExplorerCTA />}
 				<DateTimeSelectionV2 showAutoRefresh={showAutoRefresh} />
 			</div>
 			<div className="rightActions">{rightActions}</div>

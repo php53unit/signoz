@@ -33,7 +33,6 @@ function LocalTopNav({
 			<Col span={isLiveLogsPage ? 8 : 24}>
 				<Row justify="end">
 					<Space align="start" size={30} direction="horizontal">
-						<NewExplorerCTA />
 						{actions}
 						{renderPermissions?.isDateTimeEnabled && (
 							<div>
