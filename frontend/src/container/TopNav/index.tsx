@@ -40,7 +40,6 @@ function TopNav(): JSX.Element | null {
 			<Col span={24} style={{ marginTop: '1rem' }}>
 				<Row justify="end">
 					<Space align="center" size={16} direction="horizontal">
-						<NewExplorerCTA />
 						<div>
 							<DateTimeSelector showAutoRefresh />
 						</div>
